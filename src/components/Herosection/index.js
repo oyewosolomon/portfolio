@@ -238,8 +238,7 @@ const Hero = () => {
               initial={{opacity:0, scale:0.5}} 
               animate={{opacity:1, scale:1, x:20}} 
               transition={{duration:3}} 
-              whileHover={{opacity:1,scale:0.8}}
-              drag
+              whileHover={{opacity:1,scale:0.8}}            
               src={Temidayo} alt='Hero'
             >
               
