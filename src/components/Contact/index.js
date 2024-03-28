@@ -67,11 +67,11 @@ const ContactContainer = styled.div`
   color:${({theme})=>theme.white};
   @media screen and (max-width: 768px) {
     max-width: 400px;
-    padding: 10px 36px;
+    padding: 10px 20px;
   }
   @media screen and (max-width: 500px) {
     max-width: 330px;
-    padding: 10px 36px;
+    padding: 10px 20px;
   }
 
 `;
@@ -82,6 +82,10 @@ const SkillTitle = styled.h2`
   color:${({theme})=>theme.text_secondary};
   margin-bottom:12px;
   text-align: center;
+  @media screen and (max-width: 640px) {
+    font-size: 20px;
+    
+    }
 `;
 
 const SkillList = styled.div`
@@ -102,14 +106,13 @@ const SocialContainer = styled.div`
     padding: 0 6px;
     margin-top: 15px;
     @media screen and (max-width: 640px){
-      margin-left: 20px;
+     
     }
 `;
 const SocialLink = styled.a`
     text-decoration: none;
     background-color:${({theme})=>theme.white};
     color: ${({theme})=>theme.black};
-   
     border-radius:15px;   
     justify-content: center;
     align-items: center;
@@ -127,11 +130,10 @@ const SocialLink = styled.a`
         cursor: pointer;
     }
     @media screen and (max-width: 640px) {
-      padding: 23px 20px;
-      font-size: 0.9rem;
-      width: 41%;
-      height: 50px;
-      margin: 10px;
+        padding:7px 13px;
+        font-size: 1rem;
+        border-radius:10px;   
+    
     }
 `;
 const Contact = () => {
