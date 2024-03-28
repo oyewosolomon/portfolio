@@ -65,6 +65,13 @@ export const Bio = {
           image:
             "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
         },
+        {
+          name: "Tailwind",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/archive/d/d5/20230715030041%21Tailwind_CSS_Logo.svg",
+        },
+
+        
       ],
     },
     {
@@ -272,41 +279,32 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://res.cloudinary.com/dwjw0b83h/image/upload/v1711533365/Untitled_design_3_bdgnbp.png",
-      role: "Software developer",
-      company: "iBeep",
+      img: "https://pwangroup.com/favicon.png",
+      role: "Web developer",
+      company: "PWANGROUP",
       date: "Nov 2022 - Till present",
-      desc: "• Software engineer - Developing web and mobile applications. A meal-booking app with MVVM architecture using Flutter and Android Studio integrating the Firebase SDK. Integrating a QR code generator, scanner, and geolocator. Created low-level design and converted Figma design code. I developed several stunning portfolio websites for clients and landing pages for businesses that converted aspiring customers into paying customers. I built a web application that consumed the YouTube API and queries and displayed YouTube videos on the website.",
+      desc: "• I built a robust human capital management system that has the following features: employee database management, recruitment and applicant tracking, performance management, memos, compensation and benefits management, time and attendance tracking with employee self-service portals, manager self-service tools, and workforce analytics and reporting. I also designed and developed web applications.",
       skills: [
-        "Flutter",
-        "Rust",
-        "Javascript",
         "PHP",
         "Laravel",
-        "ReactJs",
-        "NextJs",
-        "Node Js",
-        "Cloud Firestore",
-        "Firebase",
-        "Google Map",
+        "Mysql",
+        "Javascript",
+        "CSS",
+        "Bootstrap"
       ],
       technology: [
-        "Flutter",
-        "Rust",
-        "Javascript",
         "PHP",
         "Laravel",
-        "ReactJs",
-        "NextJs",
-        "Node Js",
-        "Cloud Firestore",
-        "Firebase",
-        "Google Map",
+        "Mysql",
+        "Javascript",
+        "CSS",
+        "Bootstrap"
       ],
       doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
     },
+   
     {
-      id: 1,
+      id: 2,
       img: "https://solomonhills.com/icons/solomon%20png%20favicon.png",
       role: "Fullstack Engineer- Mobile and Web",
       company: "Solomonhills",
@@ -340,7 +338,7 @@ export const Bio = {
       doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
     },
     {
-      id: 2,
+      id: 3,
       img: "https://media.licdn.com/dms/image/D4D0BAQFzpkfB8jihpQ/company-logo_200_200/0/1688336044130?e=2147483647&v=beta&t=dIayroBjkFYbgcHZSPcsdwOyQoFbOp-dkE-L3ge0ba4",
       role: "Full Stack Developer & Business Model Architect",
       company: "Overwood",
@@ -371,30 +369,41 @@ export const Bio = {
       doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
     },
     {
-      id: 3,
-      img: "https://pwangroup.com/favicon.png",
-      role: "Web developer",
-      company: "PWANGROUP",
+      id: 1,
+      img: "https://res.cloudinary.com/dwjw0b83h/image/upload/v1711533365/Untitled_design_3_bdgnbp.png",
+      role: "Software developer",
+      company: "iBeep",
       date: "Nov 2022 - Till present",
-      desc: "• I built a robust human capital management system that has the following features: employee database management, recruitment and applicant tracking, performance management, memos, compensation and benefits management, time and attendance tracking with employee self-service portals, manager self-service tools, and workforce analytics and reporting. I also designed and developed web applications.",
+      desc: "• Software engineer - Developing web and mobile applications. A meal-booking app with MVVM architecture using Flutter and Android Studio integrating the Firebase SDK. Integrating a QR code generator, scanner, and geolocator. Created low-level design and converted Figma design code. I developed several stunning portfolio websites for clients and landing pages for businesses that converted aspiring customers into paying customers. I built a web application that consumed the YouTube API and queries and displayed YouTube videos on the website.",
       skills: [
+        "Flutter",
+        "Rust",
+        "Javascript",
         "PHP",
         "Laravel",
-        "Mysql",
-        "Javascript",
-        "CSS",
-        "Bootstrap"
+        "ReactJs",
+        "NextJs",
+        "Node Js",
+        "Cloud Firestore",
+        "Firebase",
+        "Google Map",
       ],
       technology: [
+        "Flutter",
+        "Rust",
+        "Javascript",
         "PHP",
         "Laravel",
-        "Mysql",
-        "Javascript",
-        "CSS",
-        "Bootstrap"
+        "ReactJs",
+        "NextJs",
+        "Node Js",
+        "Cloud Firestore",
+        "Firebase",
+        "Google Map",
       ],
       doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
     },
+   
         
     
   ];
@@ -472,20 +481,7 @@ export const Bio = {
       category: "web app",
       github: "https://github.com/oyewodayo/chat-with-file",
       webapp: "https://github.com/oyewodayo/chat-with-file",
-      member: [
-        {
-          name: "Rishav Chanda",
-          img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
-        },
-        {
-          name: "Upasana Chaudhuri",
-          img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-          linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-          github: "https://github.com/upasana0710",
-        },
-      ],
+     
     },
     {
       id: 1,
@@ -519,20 +515,7 @@ export const Bio = {
       category: "System software",
       github: "https://github.com/oyewodayo/local-file-search",
       webapp: "https://github.com/oyewodayo/local-file-search",
-      member: [
-        {
-          name: "Rishav Chanda",
-          img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-          linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-          github: "https://github.com/rishavchanda/",
-        },
-        {
-          name: "Upasana Chaudhuri",
-          img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-          linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-          github: "https://github.com/upasana0710",
-        },
-      ],
+     
     },
     {
       id: 3,
@@ -614,7 +597,7 @@ export const Bio = {
     },
     {
       id: 8,
-      title: "ERP Software",
+      title: "HCM/ERP Software",
       date: "Jan 2021",
       description:
         "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
