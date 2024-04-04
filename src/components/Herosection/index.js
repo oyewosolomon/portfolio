@@ -147,6 +147,7 @@ const SubTitle = styled.div`
 `;
 
 const ResumeButton = styled.a`
+  
    -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -156,8 +157,7 @@ const ResumeButton = styled.a`
     text-align: center;
     padding: 16px 0;
     color:${({ theme }) => theme.white};
-    border-radius: 20px;
-    cursor: pointer;
+    border-radius: 20px;    
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
@@ -168,7 +168,8 @@ const ResumeButton = styled.a`
     box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
     &:hover {
-        transform: scale(1.05);
+    transform: scale(1.05);
+    cursor: pointer;
     transition: all 0.4s ease-in-out;
     box-shadow:  20px 20px 60px #1F2634,
    
@@ -230,7 +231,7 @@ const Hero = () => {
             <SubTitle>
               {Bio.description}
             </SubTitle>
-            <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+            <ResumeButton href={Bio.resume}>Check Resume</ResumeButton>
           </HeroLeftContainer>
           <HeroRightContainer >
             <Image 
