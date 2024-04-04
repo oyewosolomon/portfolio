@@ -66,7 +66,7 @@ const Education = () => {
     <Container id="education">
     <Wrapper>
         <Title>Education</Title>
-        <Desc>Here are some of my projects</Desc>
+        <Desc></Desc>
         <TimeLineSection>
            <Timeline>
                 {education.map((education,index)=>(

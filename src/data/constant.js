@@ -415,7 +415,7 @@ export const Bio = {
       school: "University of Lagos, Akoka",
       date: "Nov 2017 - Nov 2019",
       grade: "8.41 CGPA",
-      desc: "I completed my Master's degree in Physics at University of Lagos, Akoka. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
+      desc: "I completed my Master's degree in Physics at University of Lagos, Akoka.",
       degree: "Master's degree of Physics - M.Ed Physics",
     },
     {
@@ -424,7 +424,7 @@ export const Bio = {
       school: "Obafemi Awolowo University, Ile-Ife - ACEONDO.",
       date: "Nov 2004 - Nov 2008",
       grade: "3.1%",
-      desc: "I completed my Bachelor's degree in Physics Methodist School, Dankuni, where I studied Science with Computer Science.",
+      desc: "I completed my Bachelor's degree in Physics at Obafemi Awolowo University, ACE Chapter.",
       degree: "Bachelor's degree in Physics- BSC.Ed Physics",
     },
   ];
@@ -437,7 +437,7 @@ export const Bio = {
       description:
         "An email marketing and scheduling application. It give user ability to build contact list by newsletter subscription.",
       image:
-        "https://briefbrew.com/assets/images/Group 35774.png",
+        "https://briefbrew.com/assets/images/image-7.png",
       tags: [
         "Laravel",
         "Mysql",
@@ -488,7 +488,7 @@ export const Bio = {
       title: "Figma Clone",
       date: "Oct 2022 - Jan 2023",
       description:
-        "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+        "Designed and developed the Figma cloned application that perform all the major functions of a Figma.",
       image:
         "/assets/Framer-clone.png",
       tags: [
@@ -508,7 +508,7 @@ export const Bio = {
       title: "Local file search",
       date: "Jan 2023 - Mar 2023",
       description:
-        "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+        "A Rust command line application and is used to index files locally and to search for content from the files from a selected directory.",
       image:
         "https://www.groovypost.com/wp-content/uploads/2023/05/check-boxes-search-file-explorer-featured.jpg",
       tags: ["Rust", "Clap"],
@@ -522,7 +522,7 @@ export const Bio = {
       title: "Meal booking app",
       date: "Dec 2021 - Apr 2022",
       description:
-        "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+        "A meal booking app that function for taking attendance and booking of lunch for staff only within the premises of the office.",
       image:
         "/assets/Meal-app.png",
       tags: ["Dart", "Flutter"],

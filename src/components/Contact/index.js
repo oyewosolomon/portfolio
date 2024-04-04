@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {FaTwitter, FaLinkedin,FaFacebook,FaInstagram, FaYoutube} from 'react-icons/fa'
+import {FaTwitter, FaLinkedin,FaFacebook,FaInstagram, FaYoutube,FaGithub} from 'react-icons/fa'
 import { useState,useForm } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -121,7 +121,7 @@ const SocialLink = styled.a`
     text-align: center;
     margin: 7px;
     padding:10px 15px;
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500;
     cursor: pointer;
     &:hover{
@@ -136,6 +136,41 @@ const SocialLink = styled.a`
     
     }
 `;
+
+const FormBox = styled.div`
+  min-width: 100%;
+  margin: 0vw;
+`;
+
+const FormTitle = styled.h5`
+  font-size: 35px;
+  text-align: center;
+  color: #f55a00;
+  margin: 0 0 0.5vh 0;
+`;
+
+const FormInput = styled.input`
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin: 0.9vw 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+`;
+
+const FormTextarea = styled.textarea`
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  margin: 0.9vw 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 15vh;
+`;
+
+
 const Contact = () => {
   return (
     <Container id="contactus">
@@ -155,15 +190,31 @@ const Contact = () => {
                 <SocialLink href='https://twitter.com/oyewodayo' target='_blank'><FaTwitter> </FaTwitter>&nbsp; Twitter</SocialLink>
                 <SocialLink href='https://instagram.com/dayooye' target='_blank'><FaInstagram> </FaInstagram>&nbsp; Instagram</SocialLink>
                 <SocialLink href='https://youtube.com/@oyewodayo' target='_blank'><FaYoutube> </FaYoutube>&nbsp; Youtube</SocialLink>
+                <SocialLink href='https://github.com/oyewodayo' target='_blank'><FaGithub> </FaGithub>&nbsp; Github</SocialLink>
+                
                 </SocialContainer>
-                <div style={{'marginTop':15,'textAlign':'center'}}><a href='mailto:temidayo@briefbrew.com' style={{'color':'white','textDecoration':'none'}}> Email: temidayo@briefbrew.com </a></div>
+                <div style={{'marginTop':35,'textAlign':'center'}}><a href='mailto:temidayo@briefbrew.com' style={{'color':'white','textDecoration':'none'}}> Email: temidayo@briefbrew.com </a></div>
             </ContactContainer>
 
 
             <ContactContainer>             
               <SkillTitle>Send a message</SkillTitle>
               <SkillList>
-              
+              <FormBox>
+                <form>
+                  
+                  <FormInput type="text" placeholder="Name" />
+                  <FormInput type="tel" placeholder="Phone number" />
+                  <FormInput type="email" placeholder="E-mail" />
+                  {/* Use FormTextarea component for textareas */}
+                  <FormTextarea placeholder="Message"></FormTextarea>
+                 
+                  <button type="submit" style={{'paddingTop':10,'paddingBottom':10,'paddingLeft':20,'paddingRight':20,'fontSize': 18,'borderRadius':10}} id="submitBtn" className="submitBtn">
+                    Submit
+                  </button>
+                </form>
+              </FormBox>
+                
               </SkillList>
             </ContactContainer>
         
